@@ -1,0 +1,39 @@
+/**
+ * Black theme for reveal.js.
+ *
+ * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+
+// Include theme-specific fonts
+//@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+//@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:300,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:700);
+
+
+// Override theme settings (see ../template/settings.scss)
+$backgroundColor: rgb(48, 48, 48);
+
+$mainFont: 'Roboto Slab', sans-serif;
+$linkColor: #fa9a00;
+$linkColorHover: lighten( $linkColor, 20% );
+$headingFont: 'Roboto', Impact, sans-serif;
+$headingTextShadow: none;
+$headingLetterSpacing: -0.03em;
+$headingTextTransform: none;
+$selectionBackgroundColor: #fba213;
+$presentation-font-size-root:32px;	
+// Change text colors against light slide backgrounds
+@include light-bg-text-color(#222);
+
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------

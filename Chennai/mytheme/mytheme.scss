@@ -1,0 +1,29 @@
+/**
+ * Custom Theme theme for reveal.js.
+ *
+ * Author : Rajkumar Sengottuvel
+ */
+
+/*-- scss:defaults --*/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:300,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:700);
+
+// fonts
+$font-family-sans-serif: "Roboto Slab", sans-serif !default;
+
+// colors
+//$body-bg: rgb(28, 46, 46) !default;
+$body-bg: #2c2c2c !default;
+$body-color: #fff !default;
+$link-color: #fc9d05 !default;
+$selection-bg: #e7ad52 !default;
+$input-panel-bg: rgba(233, 236, 239, 0.2) !default;
+
+// headings
+$presentation-font-size-root:24px;
+$presentation-heading-font: "Roboto", Impact, sans-serif;
+$presentation-heading-letter-spacing: -0.03em;
+
+// code blocks
+$code-block-border-color: rgba(255, 255, 255, 0.5) !default;
